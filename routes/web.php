@@ -2,6 +2,4 @@
 
 use App\Controllers\HomeController;
 
-return [
-    '/' => [HomeController::class, 'index'],
-];
+$app->get('/', [HomeController::class, 'index']);
