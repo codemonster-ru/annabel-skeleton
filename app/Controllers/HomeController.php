@@ -6,6 +6,6 @@ class HomeController
 {
     public function index()
     {
-        return 'Hello from Annabel Skeleton 🚀';
+        return view("home", ['name' => 'World!']);
     }
 }
