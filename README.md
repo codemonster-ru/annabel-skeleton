@@ -3,7 +3,6 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/codemonster-ru/annabel-skeleton.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/annabel-skeleton)
 [![Total Downloads](https://img.shields.io/packagist/dt/codemonster-ru/annabel-skeleton.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/annabel-skeleton)
 [![License](https://img.shields.io/packagist/l/codemonster-ru/annabel-skeleton.svg?style=flat-square)](https://packagist.org/packages/codemonster-ru/annabel-skeleton)
-[![Tests](https://github.com/codemonster-ru/annabel-skeleton/actions/workflows/tests.yml/badge.svg)](https://github.com/codemonster-ru/annabel-skeleton/actions/workflows/tests.yml)
 
 Starter project for the **[Annabel PHP Framework](https://github.com/codemonster-ru/annabel)** —  
 a clean and modern foundation for building full-stack web applications.

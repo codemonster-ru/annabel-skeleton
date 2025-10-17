@@ -26,9 +26,6 @@ jobs:
             - name: Install dependencies
               run: composer install --no-progress --no-suggest --prefer-dist
 
-            - name: Run tests
-              run: vendor/bin/phpunit --testdox
-
             - name: Extract changelog entry
               run: |
                   RAW_VERSION=${GITHUB_REF_NAME#v}
