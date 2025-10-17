@@ -1,7 +1,7 @@
-vendor
-node_modules
+.env
 .idea
 .vscode
+vendor
+node_modules
 composer.local.json
 composer.local.lock
-makefile

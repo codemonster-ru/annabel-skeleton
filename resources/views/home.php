@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to Annabel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Annabel Framework">
+    <title>Welcome to Annabel</title>
     <style>
         body {
             font-family: system-ui, sans-serif;
@@ -36,9 +37,14 @@
 
         footer {
             text-align: center;
-            padding: 1rem;
+            padding: 1.5rem 0;
             font-size: 0.9rem;
             color: #718096;
+        }
+
+        a {
+            color: #4c51bf;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -53,7 +59,7 @@
         <p>Edit this file at <code>resources/views/home.php</code> to get started.</p>
     </main>
     <footer>
-        &copy; <?= date('Y') ?> Annabel Framework <br>
+        &copy; <?= date('Y') ?> Annabel Framework<br>
         Created by <a href="https://github.com/codemonster-ru" target="_blank">Codemonster</a>
     </footer>
 </body>

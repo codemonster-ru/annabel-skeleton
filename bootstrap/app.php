@@ -1,9 +1,17 @@
 <?php
 
-use Annabel\Application;
+declare(strict_types=1);
 
-$app = new Application(dirname(__DIR__), true);
+use Codemonster\Annabel\Application;
 
-require __DIR__ . '/../routes/web.php';
+/**
+ * Bootstrap the Annabel application and load routes.
+ */
+
+$baseDir = __DIR__ . '/..';
+
+$app = new Application($baseDir);
+
+require "$baseDir/routes/web.php";
 
 return $app;
