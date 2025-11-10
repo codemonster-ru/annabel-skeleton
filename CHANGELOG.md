@@ -2,9 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1] - 2025-11-10
+
+### Changed
+
+-   Updated Response import to `Codemonster\Http\Response` (`app/Controllers/HomeController.php`).
+-   Removed `declare(strict_types=1)` from `public/index.php`, `bootstrap/app.php`, `routes/web.php`, `app/Controllers/HomeController.php`.
+-   Removed redundant file-level docblocks in the same files.
+
+### Dependencies
+
+-   Updated `composer.lock` (compatible with `codemonster-ru/annabel ^1.0`).
+
 ## [1.0.0] - 2025-10-18
 
-### 🎉 Initial Release
+### Initial Release
 
 -   Introduced the **Annabel Skeleton** — starter project for the [Annabel PHP framework](https://github.com/codemonster-ru/annabel)
 -   Included minimal but complete structure:
