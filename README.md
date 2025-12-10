@@ -7,7 +7,7 @@
 Starter project for the **[Annabel PHP Framework](https://github.com/codemonster-ru/annabel)** —  
 a clean and modern foundation for building full-stack web applications.
 
-## 🚀 Quick Start
+## Quick Start
 
 Create a new project using Composer:
 
@@ -18,17 +18,17 @@ composer start
 ```
 
 Then open [http://localhost:8000](http://localhost:8000) —  
-you’ll see your first page rendered by **Annabel** 🎉
+you’ll see your first page rendered by **Annabel**
 
-## ⚙️ Requirements
+## Requirements
 
 -   PHP **8.2** or higher
 -   Composer
 
-## 👨‍💻 Author
+## Author
 
 [**Kirill Kolesnikov**](https://github.com/KolesnikovKirill)
 
-## 📜 License
+## License
 
 [MIT](https://github.com/codemonster-ru/annabel-skeleton/blob/main/LICENSE)

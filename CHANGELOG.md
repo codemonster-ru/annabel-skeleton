@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2025-12-10
+
+### Added
+
+-   Added `config/database.php` with default MySQL/SQLite connections and migrations path.
+-   Implemented users migration (`database/migrations/2025_12_10_213456_create_users_table.php`) with standard auth columns.
+
 ## [1.0.1] - 2025-11-10
 
 ### Changed

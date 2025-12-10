@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b51baa80d8b0a12ff0c189954c1df998",
+    "content-hash": "088cc54ab6362001890f5491f4630dae",
     "packages": [
         {
             "name": "codemonster-ru/annabel",
-            "version": "v1.7.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/annabel.git",
-                "reference": "452b1de0ae66e5451acb2155f1f3c69aa7cc940c"
+                "reference": "139d7a0d1b50e568b5dddca26fc28c08db8b9505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/annabel/zipball/452b1de0ae66e5451acb2155f1f3c69aa7cc940c",
-                "reference": "452b1de0ae66e5451acb2155f1f3c69aa7cc940c",
+                "url": "https://api.github.com/repos/codemonster-ru/annabel/zipball/139d7a0d1b50e568b5dddca26fc28c08db8b9505",
+                "reference": "139d7a0d1b50e568b5dddca26fc28c08db8b9505",
                 "shasum": ""
             },
             "require": {
@@ -33,6 +33,9 @@
             "suggest": {
                 "codemonster-ru/ssr-bridge": "Enable Vue/React/Svelte SSR rendering bridge"
             },
+            "bin": [
+                "bin/annabel"
+            ],
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -71,7 +74,7 @@
                 "issues": "https://github.com/codemonster-ru/annabel/issues",
                 "source": "https://github.com/codemonster-ru/annabel"
             },
-            "time": "2025-11-10T17:28:06+00:00"
+            "time": "2025-12-10T14:09:24+00:00"
         },
         {
             "name": "codemonster-ru/config",
@@ -125,6 +128,78 @@
                 "source": "https://github.com/codemonster-ru/config"
             },
             "time": "2025-10-05T10:45:06+00:00"
+        },
+        {
+            "name": "codemonster-ru/database",
+            "version": "v1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codemonster-ru/database.git",
+                "reference": "88b98ae4e861915ce3fd4532e808de5f41e6830d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codemonster-ru/database/zipball/88b98ae4e861915ce3fd4532e808de5f41e6830d",
+                "reference": "88b98ae4e861915ce3fd4532e808de5f41e6830d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.6 || ^10.5 || ^11.0 || ^12.0"
+            },
+            "bin": [
+                "bin/database"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Codemonster\\Database\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kirill Kolesnikov",
+                    "email": "admin@codemonster.net",
+                    "homepage": "https://github.com/KolesnikovKirill",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "Lightweight, framework-agnostic database layer with PDO connections, fluent Query Builder, Schema Builder, and full migration system.",
+            "homepage": "https://github.com/codemonster-ru/database",
+            "keywords": [
+                "codemonster",
+                "database",
+                "database-manager",
+                "db-layer",
+                "framework-agnostic",
+                "migration-runner",
+                "migrations",
+                "mysql",
+                "orm-like",
+                "pdo",
+                "php-database",
+                "query",
+                "query-builder",
+                "schema",
+                "sql"
+            ],
+            "support": {
+                "issues": "https://github.com/codemonster-ru/database/issues",
+                "source": "https://github.com/codemonster-ru/database"
+            },
+            "time": "2025-12-10T14:29:50+00:00"
         },
         {
             "name": "codemonster-ru/dumper",
@@ -239,16 +314,16 @@
         },
         {
             "name": "codemonster-ru/errors",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/errors.git",
-                "reference": "6549e8570b7db4cd5d8cc07eaa42a174f7c246cf"
+                "reference": "67048008174fc998f46675014b09bb7bab220321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/errors/zipball/6549e8570b7db4cd5d8cc07eaa42a174f7c246cf",
-                "reference": "6549e8570b7db4cd5d8cc07eaa42a174f7c246cf",
+                "url": "https://api.github.com/repos/codemonster-ru/errors/zipball/67048008174fc998f46675014b09bb7bab220321",
+                "reference": "67048008174fc998f46675014b09bb7bab220321",
                 "shasum": ""
             },
             "require": {
@@ -296,7 +371,7 @@
                 "issues": "https://github.com/codemonster-ru/errors/issues",
                 "source": "https://github.com/codemonster-ru/errors"
             },
-            "time": "2025-11-09T18:11:46+00:00"
+            "time": "2025-11-15T18:26:59+00:00"
         },
         {
             "name": "codemonster-ru/http",
@@ -422,16 +497,16 @@
         },
         {
             "name": "codemonster-ru/router",
-            "version": "v2.3.0",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/router.git",
-                "reference": "37f1199cb12fde3198eacfb1e639e79a60d2d89d"
+                "reference": "32bef189adcc1f24498a7cfdac2c666fd8ea3cd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/router/zipball/37f1199cb12fde3198eacfb1e639e79a60d2d89d",
-                "reference": "37f1199cb12fde3198eacfb1e639e79a60d2d89d",
+                "url": "https://api.github.com/repos/codemonster-ru/router/zipball/32bef189adcc1f24498a7cfdac2c666fd8ea3cd1",
+                "reference": "32bef189adcc1f24498a7cfdac2c666fd8ea3cd1",
                 "shasum": ""
             },
             "require": {
@@ -477,20 +552,20 @@
                 "issues": "https://github.com/codemonster-ru/router/issues",
                 "source": "https://github.com/codemonster-ru/router"
             },
-            "time": "2025-10-19T16:24:56+00:00"
+            "time": "2025-11-15T21:59:06+00:00"
         },
         {
             "name": "codemonster-ru/session",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/session.git",
-                "reference": "b2fe253e30f5b5a8481dfed46ed4a54b40c2c171"
+                "reference": "aea7af70ebc2ccdb90c9ceb66cb7774973bf0b7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/session/zipball/b2fe253e30f5b5a8481dfed46ed4a54b40c2c171",
-                "reference": "b2fe253e30f5b5a8481dfed46ed4a54b40c2c171",
+                "url": "https://api.github.com/repos/codemonster-ru/session/zipball/aea7af70ebc2ccdb90c9ceb66cb7774973bf0b7d",
+                "reference": "aea7af70ebc2ccdb90c9ceb66cb7774973bf0b7d",
                 "shasum": ""
             },
             "require": {
@@ -535,24 +610,25 @@
                 "issues": "https://github.com/codemonster-ru/session/issues",
                 "source": "https://github.com/codemonster-ru/session"
             },
-            "time": "2025-10-24T14:54:18+00:00"
+            "time": "2025-11-15T19:54:45+00:00"
         },
         {
             "name": "codemonster-ru/support",
-            "version": "v1.0.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/support.git",
-                "reference": "9b95463df9b463206683ce6fa3bf3b4540cb8da2"
+                "reference": "674815a8ee4c39d31b91ea1ee218d036f6e9bf39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/support/zipball/9b95463df9b463206683ce6fa3bf3b4540cb8da2",
-                "reference": "9b95463df9b463206683ce6fa3bf3b4540cb8da2",
+                "url": "https://api.github.com/repos/codemonster-ru/support/zipball/674815a8ee4c39d31b91ea1ee218d036f6e9bf39",
+                "reference": "674815a8ee4c39d31b91ea1ee218d036f6e9bf39",
                 "shasum": ""
             },
             "require": {
                 "codemonster-ru/config": "^2.0",
+                "codemonster-ru/database": "^1.0",
                 "codemonster-ru/dumper": "^1.0",
                 "codemonster-ru/env": "^2.0",
                 "codemonster-ru/http": "^1.0",
@@ -574,6 +650,7 @@
             "autoload": {
                 "files": [
                     "src/helpers/config.php",
+                    "src/helpers/db.php",
                     "src/helpers/env.php",
                     "src/helpers/view.php",
                     "src/helpers/router.php",
@@ -613,7 +690,7 @@
                 "issues": "https://github.com/codemonster-ru/support/issues",
                 "source": "https://github.com/codemonster-ru/support"
             },
-            "time": "2025-10-28T16:36:13+00:00"
+            "time": "2025-12-09T13:54:52+00:00"
         },
         {
             "name": "codemonster-ru/view",
