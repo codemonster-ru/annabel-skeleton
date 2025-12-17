@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2025-12-17
+
+### Added
+
+-   Integrated `codemonster-ru/security` (CSRF + rate limiting).
+-   Added `bootstrap/providers/SecurityServiceProvider.php` to auto-register security middleware in Annabel.
+-   Added `config/security.php` with default CSRF/throttle settings.
+-   Added `SECURITY_*` environment variables to `.env.example` for toggling security features per environment.
+
+### Dependencies
+
+-   Added `codemonster-ru/security` (`v1.0.0`).
+-   Updated `composer.lock` (includes `codemonster-ru/database` `v1.4.3`).
+
 ## [1.1.0] - 2025-12-10
 
 ### Added

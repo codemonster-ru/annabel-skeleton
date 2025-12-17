@@ -21,7 +21,8 @@
     ],
     "require": {
         "php": ">=8.2",
-        "codemonster-ru/annabel": "^1.12"
+        "codemonster-ru/annabel": "^1.12",
+        "codemonster-ru/security": "^1.0"
     },
     "autoload": {
         "psr-4": {
