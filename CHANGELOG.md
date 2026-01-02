@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.0] - 2026-01-03
+
+### Changed
+
+-   Enabled throttle middleware auto-registration by default and synced `.env.example` default.
+-   Bumped `codemonster-ru/security` to `v1.1.0`.
+
 ## [1.2.0] - 2025-12-17
 
 ### Added
@@ -39,7 +46,7 @@ All notable changes to this project will be documented in this file.
 
 ### Initial Release
 
--   Introduced the **Annabel Skeleton** — starter project for the [Annabel PHP framework](https://github.com/codemonster-ru/annabel)
+-   Introduced the **Annabel Skeleton** - starter project for the [Annabel PHP framework](https://github.com/codemonster-ru/annabel)
 -   Included minimal but complete structure:
     -   `app/Controllers/HomeController.php`
     -   `bootstrap/app.php`, `public/index.php`

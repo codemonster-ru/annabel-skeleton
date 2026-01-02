@@ -11,7 +11,7 @@ return [
     ],
     'throttle' => [
         'enabled' => env('SECURITY_THROTTLE_ENABLED', true),
-        'add_to_kernel' => env('SECURITY_THROTTLE_ADD_TO_KERNEL', false),
+        'add_to_kernel' => env('SECURITY_THROTTLE_ADD_TO_KERNEL', true),
         'max_attempts' => (int) env('SECURITY_THROTTLE_MAX_ATTEMPTS', 60),
         'decay_seconds' => (int) env('SECURITY_THROTTLE_DECAY_SECONDS', 60),
         'except' => [],

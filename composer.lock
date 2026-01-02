@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d6b737cc07826aa80d7e1599e7539d0",
+    "content-hash": "3e2ec06777a372f4d5b007f9c8411905",
     "packages": [
         {
             "name": "codemonster-ru/annabel",
-            "version": "v1.12.0",
+            "version": "v1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/annabel.git",
-                "reference": "139d7a0d1b50e568b5dddca26fc28c08db8b9505"
+                "reference": "b655833c7ee9a88ee97efc5e1554b7bad2b87d1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/annabel/zipball/139d7a0d1b50e568b5dddca26fc28c08db8b9505",
-                "reference": "139d7a0d1b50e568b5dddca26fc28c08db8b9505",
+                "url": "https://api.github.com/repos/codemonster-ru/annabel/zipball/b655833c7ee9a88ee97efc5e1554b7bad2b87d1f",
+                "reference": "b655833c7ee9a88ee97efc5e1554b7bad2b87d1f",
                 "shasum": ""
             },
             "require": {
-                "codemonster-ru/errors": "^1.0",
-                "codemonster-ru/razor": "^1.0",
-                "codemonster-ru/support": "^1.0",
-                "codemonster-ru/view-php": "^2.0",
+                "codemonster-ru/errors": "^1.2",
+                "codemonster-ru/razor": "^1.1",
+                "codemonster-ru/support": "^1.4",
+                "codemonster-ru/view-php": "^2.1",
                 "php": ">=8.2"
             },
             "require-dev": {
@@ -74,7 +74,7 @@
                 "issues": "https://github.com/codemonster-ru/annabel/issues",
                 "source": "https://github.com/codemonster-ru/annabel"
             },
-            "time": "2025-12-10T14:09:24+00:00"
+            "time": "2026-01-02T17:16:43+00:00"
         },
         {
             "name": "codemonster-ru/config",
@@ -131,16 +131,16 @@
         },
         {
             "name": "codemonster-ru/database",
-            "version": "v1.4.3",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/database.git",
-                "reference": "38a8fd59d8f8ef2585e2424bd1dd5d7361656903"
+                "reference": "9aaef71e8954d7a8f6dd50e49a65da9f79846a5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/database/zipball/38a8fd59d8f8ef2585e2424bd1dd5d7361656903",
-                "reference": "38a8fd59d8f8ef2585e2424bd1dd5d7361656903",
+                "url": "https://api.github.com/repos/codemonster-ru/database/zipball/9aaef71e8954d7a8f6dd50e49a65da9f79846a5a",
+                "reference": "9aaef71e8954d7a8f6dd50e49a65da9f79846a5a",
                 "shasum": ""
             },
             "require": {
@@ -199,7 +199,7 @@
                 "issues": "https://github.com/codemonster-ru/database/issues",
                 "source": "https://github.com/codemonster-ru/database"
             },
-            "time": "2025-12-10T17:00:33+00:00"
+            "time": "2025-12-22T15:42:00+00:00"
         },
         {
             "name": "codemonster-ru/dumper",
@@ -259,16 +259,16 @@
         },
         {
             "name": "codemonster-ru/env",
-            "version": "v2.0.1",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/env.git",
-                "reference": "7330e3d5b4304d60e596ad911e656044985eae70"
+                "reference": "b205ce656a0f9b0fa5d638527b917fc2cd847fe0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/env/zipball/7330e3d5b4304d60e596ad911e656044985eae70",
-                "reference": "7330e3d5b4304d60e596ad911e656044985eae70",
+                "url": "https://api.github.com/repos/codemonster-ru/env/zipball/b205ce656a0f9b0fa5d638527b917fc2cd847fe0",
+                "reference": "b205ce656a0f9b0fa5d638527b917fc2cd847fe0",
                 "shasum": ""
             },
             "require": {
@@ -277,7 +277,15 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.6 || ^10.5 || ^11.0 || ^12.0"
             },
+            "suggest": {
+                "ext-mbstring": "Required for non-UTF-8 .env encodings."
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "2.0.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Codemonster\\Env\\": "src/"
@@ -290,7 +298,7 @@
             "authors": [
                 {
                     "name": "Kirill Kolesnikov",
-                    "email": "admin@codemonster.ru",
+                    "email": "admin@codemonster.net",
                     "homepage": "https://github.com/KolesnikovKirill",
                     "role": "Lead Developer"
                 }
@@ -310,24 +318,24 @@
                 "issues": "https://github.com/codemonster-ru/env/issues",
                 "source": "https://github.com/codemonster-ru/env"
             },
-            "time": "2025-10-05T11:16:30+00:00"
+            "time": "2025-12-28T08:53:37+00:00"
         },
         {
             "name": "codemonster-ru/errors",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/errors.git",
-                "reference": "67048008174fc998f46675014b09bb7bab220321"
+                "reference": "0ffd14876d7dac309c62a3e90c76890b090c5dc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/errors/zipball/67048008174fc998f46675014b09bb7bab220321",
-                "reference": "67048008174fc998f46675014b09bb7bab220321",
+                "url": "https://api.github.com/repos/codemonster-ru/errors/zipball/0ffd14876d7dac309c62a3e90c76890b090c5dc3",
+                "reference": "0ffd14876d7dac309c62a3e90c76890b090c5dc3",
                 "shasum": ""
             },
             "require": {
-                "codemonster-ru/http": "^1.0",
+                "codemonster-ru/http": "^2.0",
                 "php": ">=8.2"
             },
             "require-dev": {
@@ -371,20 +379,20 @@
                 "issues": "https://github.com/codemonster-ru/errors/issues",
                 "source": "https://github.com/codemonster-ru/errors"
             },
-            "time": "2025-11-15T18:26:59+00:00"
+            "time": "2026-01-02T17:04:54+00:00"
         },
         {
             "name": "codemonster-ru/http",
-            "version": "v1.0.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/http.git",
-                "reference": "8618d1e5571d4ad3f36b2431f15b63f309ced51a"
+                "reference": "b64003db19118c197632360584841d7b76db380d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/http/zipball/8618d1e5571d4ad3f36b2431f15b63f309ced51a",
-                "reference": "8618d1e5571d4ad3f36b2431f15b63f309ced51a",
+                "url": "https://api.github.com/repos/codemonster-ru/http/zipball/b64003db19118c197632360584841d7b76db380d",
+                "reference": "b64003db19118c197632360584841d7b76db380d",
                 "shasum": ""
             },
             "require": {
@@ -431,7 +439,7 @@
                 "issues": "https://github.com/codemonster-ru/http/issues",
                 "source": "https://github.com/codemonster-ru/http"
             },
-            "time": "2025-10-23T14:51:28+00:00"
+            "time": "2025-12-24T16:16:19+00:00"
         },
         {
             "name": "codemonster-ru/razor",
@@ -556,29 +564,32 @@
         },
         {
             "name": "codemonster-ru/security",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/security.git",
-                "reference": "704e0e83cd22d480f2559c0d69aa44a26974f784"
+                "reference": "5d2b0cb5da5af17516ccc955b658ae0ffde35cb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/security/zipball/704e0e83cd22d480f2559c0d69aa44a26974f784",
-                "reference": "704e0e83cd22d480f2559c0d69aa44a26974f784",
+                "url": "https://api.github.com/repos/codemonster-ru/security/zipball/5d2b0cb5da5af17516ccc955b658ae0ffde35cb7",
+                "reference": "5d2b0cb5da5af17516ccc955b658ae0ffde35cb7",
                 "shasum": ""
             },
             "require": {
-                "codemonster-ru/http": "^1.0",
-                "codemonster-ru/session": "^1.0",
+                "codemonster-ru/http": "^2.0",
+                "codemonster-ru/session": "^2.0",
                 "php": ">=8.2"
             },
             "require-dev": {
-                "codemonster-ru/annabel": "^1.0",
+                "codemonster-ru/support": "^1.0",
                 "phpunit/phpunit": "^9.6 || ^10.5 || ^11.0 || ^12.0"
             },
             "suggest": {
-                "codemonster-ru/annabel": "Registers SecurityServiceProvider to enable middleware integration"
+                "codemonster-ru/annabel": "Registers SecurityServiceProvider to enable middleware integration",
+                "codemonster-ru/database": "Database storage for throttling (MySQL)",
+                "ext-redis": "Redis storage for throttling (optional)",
+                "predis/predis": "Redis storage for throttling (optional)"
             },
             "type": "library",
             "extra": {
@@ -621,27 +632,35 @@
                 "issues": "https://github.com/codemonster-ru/security/issues",
                 "source": "https://github.com/codemonster-ru/security"
             },
-            "time": "2025-12-17T16:36:36+00:00"
+            "time": "2026-01-02T09:19:43+00:00"
         },
         {
             "name": "codemonster-ru/session",
-            "version": "v1.1.0",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/session.git",
-                "reference": "aea7af70ebc2ccdb90c9ceb66cb7774973bf0b7d"
+                "reference": "87eb51528413201fb680f5b73090041170dc4e1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/session/zipball/aea7af70ebc2ccdb90c9ceb66cb7774973bf0b7d",
-                "reference": "aea7af70ebc2ccdb90c9ceb66cb7774973bf0b7d",
+                "url": "https://api.github.com/repos/codemonster-ru/session/zipball/87eb51528413201fb680f5b73090041170dc4e1d",
+                "reference": "87eb51528413201fb680f5b73090041170dc4e1d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2"
+                "php": ">=8.2",
+                "psr/simple-cache": "^3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.6 || ^10.5 || ^11.0 || ^12.0"
+                "phpstan/phpstan": "^1.11",
+                "phpunit/phpunit": "^9.6 || ^10.5 || ^11.0 || ^12.0",
+                "vimeo/psalm": "^6.0"
+            },
+            "suggest": {
+                "ext-redis": "Required for RedisSessionHandler",
+                "ext-sodium": "Required for session payload encryption",
+                "predis/predis": "Required for PredisSessionHandler"
             },
             "type": "library",
             "extra": {
@@ -661,7 +680,7 @@
             "authors": [
                 {
                     "name": "Kirill Kolesnikov",
-                    "email": "admin@codemonster.ru",
+                    "email": "admin@codemonster.net",
                     "homepage": "https://github.com/KolesnikovKirill",
                     "role": "Lead Developer"
                 }
@@ -679,30 +698,30 @@
                 "issues": "https://github.com/codemonster-ru/session/issues",
                 "source": "https://github.com/codemonster-ru/session"
             },
-            "time": "2025-11-15T19:54:45+00:00"
+            "time": "2025-12-29T17:05:57+00:00"
         },
         {
             "name": "codemonster-ru/support",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/support.git",
-                "reference": "674815a8ee4c39d31b91ea1ee218d036f6e9bf39"
+                "reference": "b0bbaedce460910b1dd7f44384107ed862d9432e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/support/zipball/674815a8ee4c39d31b91ea1ee218d036f6e9bf39",
-                "reference": "674815a8ee4c39d31b91ea1ee218d036f6e9bf39",
+                "url": "https://api.github.com/repos/codemonster-ru/support/zipball/b0bbaedce460910b1dd7f44384107ed862d9432e",
+                "reference": "b0bbaedce460910b1dd7f44384107ed862d9432e",
                 "shasum": ""
             },
             "require": {
                 "codemonster-ru/config": "^2.0",
-                "codemonster-ru/database": "^1.0",
+                "codemonster-ru/database": "^2.0",
                 "codemonster-ru/dumper": "^1.0",
                 "codemonster-ru/env": "^2.0",
-                "codemonster-ru/http": "^1.0",
+                "codemonster-ru/http": "^2.0",
                 "codemonster-ru/router": "^2.0",
-                "codemonster-ru/session": "^1.0",
+                "codemonster-ru/session": "^2.0",
                 "codemonster-ru/view": "^2.0",
                 "php": ">=8.2"
             },
@@ -744,13 +763,14 @@
                     "role": "Lead Developer"
                 }
             ],
-            "description": "Global helper functions for the Codemonster PHP ecosystem.",
+            "description": "Global helper functions and meta package for codemonster-ru/annabel.",
             "homepage": "https://github.com/codemonster-ru/support",
             "keywords": [
                 "annabel",
                 "codemonster",
                 "framework",
                 "helpers",
+                "meta-package",
                 "php",
                 "support",
                 "utilities"
@@ -759,20 +779,20 @@
                 "issues": "https://github.com/codemonster-ru/support/issues",
                 "source": "https://github.com/codemonster-ru/support"
             },
-            "time": "2025-12-09T13:54:52+00:00"
+            "time": "2026-01-02T09:14:48+00:00"
         },
         {
             "name": "codemonster-ru/view",
-            "version": "v2.3.0",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codemonster-ru/view.git",
-                "reference": "726d02e9bacf14d20264f14ab668e9ef35e89e25"
+                "reference": "6da45e93109c51c594f3ef9c48403e9148831df5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codemonster-ru/view/zipball/726d02e9bacf14d20264f14ab668e9ef35e89e25",
-                "reference": "726d02e9bacf14d20264f14ab668e9ef35e89e25",
+                "url": "https://api.github.com/repos/codemonster-ru/view/zipball/6da45e93109c51c594f3ef9c48403e9148831df5",
+                "reference": "6da45e93109c51c594f3ef9c48403e9148831df5",
                 "shasum": ""
             },
             "require": {
@@ -817,7 +837,7 @@
                 "issues": "https://github.com/codemonster-ru/view/issues",
                 "source": "https://github.com/codemonster-ru/view"
             },
-            "time": "2025-10-18T13:23:52+00:00"
+            "time": "2025-12-27T02:26:13+00:00"
         },
         {
             "name": "codemonster-ru/view-php",
@@ -878,6 +898,57 @@
                 "source": "https://github.com/codemonster-ru/view-php"
             },
             "time": "2025-10-14T14:22:08+00:00"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
+            },
+            "time": "2021-10-29T13:26:27+00:00"
         }
     ],
     "packages-dev": [],

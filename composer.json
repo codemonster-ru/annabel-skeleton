@@ -14,15 +14,15 @@
     "authors": [
         {
             "name": "Kirill Kolesnikov",
-            "email": "admin@codemonster.ru",
+            "email": "admin@codemonster.net",
             "homepage": "https://github.com/KolesnikovKirill",
             "role": "Lead Developer"
         }
     ],
     "require": {
         "php": ">=8.2",
-        "codemonster-ru/annabel": "^1.12",
-        "codemonster-ru/security": "^1.0"
+        "codemonster-ru/annabel": "^1.14",
+        "codemonster-ru/security": "^1.1"
     },
     "autoload": {
         "psr-4": {
